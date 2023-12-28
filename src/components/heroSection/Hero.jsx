@@ -1,8 +1,11 @@
+import Slider from "../swiper/Slider"
 
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div>
+      <Slider/>
+    </div>
   )
 }
 
