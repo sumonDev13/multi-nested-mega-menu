@@ -1,12 +1,13 @@
-import Slider from "../swiper/Slider"
-
+import Megamenu from "../megamenu/Megamenu";
+import Slider from "../swiper/Slider";
 
 const Hero = () => {
   return (
-    <div>
-      <Slider/>
+    <div className="relative">
+      <Slider />
+      <Megamenu />
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
