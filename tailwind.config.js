@@ -8,6 +8,7 @@ export default {
     extend: {},
     colors: {
       customGray: '#EFF0F5',
+      customOrange: '#F88D43',
     },
   },
   plugins: [],

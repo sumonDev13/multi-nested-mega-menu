@@ -24,22 +24,22 @@ const Navbar = () => {
       <div className="flex items-center space-x-4">
         {/* User Button */}
         <button className="text-gray-700 hover:text-gray-900 transition duration-300">
-          <img src="/path_to_user_icon.png" alt="User" className="h-6 w-6" />
+          <img src="/src/assets/icons/User.svg" alt="User" className="h-6 w-6" />
         </button>
 
         {/* Love Button */}
         <button className="text-gray-700 hover:text-gray-900 transition duration-300">
-          <img src="/path_to_love_icon.png" alt="Love" className="h-6 w-6" />
+          <img src="/src/assets/icons/love.svg" alt="Love" className="h-6 w-6" />
         </button>
 
         {/* Cart Button */}
         <button className="text-gray-700 hover:text-gray-900 transition duration-300">
-          <img src="/path_to_cart_icon.png" alt="Cart" className="h-6 w-6" />
+          <img src="/src/assets/icons/Cart.svg" alt="Cart" className="h-6 w-6" />
         </button>
 
         {/* Cloud Storage Button */}
         <button className="text-gray-700 hover:text-gray-900 transition duration-300">
-          <img src="/path_to_cloud_icon.png" alt="Cloud" className="h-6 w-6" />
+          <img src="/src/assets/icons/Vector.svg" alt="Cloud" className="h-6 w-6" />
         </button>
       </div>
     </nav>
