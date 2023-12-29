@@ -12,26 +12,22 @@ const BottomNav = () => {
   return (
     <div className="mt-[12px]">
       <div className="custom-container flex items-center justify-between">
-        {/* Brand Logo */}
         <div>
           <Link to="/">
             <img src={BrandLogo} alt="" />
           </Link>
         </div>
-
-        {/* Search bar */}
-        <div className="flex items-center w-full max-w-[704px] rounded-[10px] justify-between bg-background">
+        <div className="flex items-center w-full max-w-[704px]  justify-between bg-customGray"  style={{borderRadius:"10px"}}>
           <input
             type="text"
-            className="text-[14px] p-[12px] w-full outline-none border-none bg-customGray"
+            className="text-[14px] p-[12px] w-full outline-none border-none  bg-customGray"
             placeholder="Search Product"
+           
           />
           <span>
             <SearchIcon />
           </span>
         </div>
-
-        {/* User Action Button */}
         <div>
           <ul className="flex items-center gap-3">
             <li className="user-action">
@@ -45,8 +41,6 @@ const BottomNav = () => {
             </li>
           </ul>
         </div>
-
-        {/* Service Icon */}
         <div>
           <Link>
             <CloudServiceIcon />
