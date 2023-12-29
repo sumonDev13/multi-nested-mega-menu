@@ -30,13 +30,13 @@ const BottomNav = () => {
         </div>
         <div>
           <ul className="flex items-center gap-3">
-            <li className="user-action">
+            <li className="hover-there">
               <UserIcon />
             </li>
-            <li className="user-action">
+            <li className="hover-there">
               <FavoriteIcon />
             </li>
-            <li className="user-action">
+            <li className="hover-there">
               <ShoppingIcon />
             </li>
           </ul>
