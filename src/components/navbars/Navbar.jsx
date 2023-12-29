@@ -8,22 +8,25 @@ import {
   UserIcon,
 } from "../../assets/icons";
 
-const BottomNav = () => {
+const Navbar = () => {
+  const navItems = [
+    { icon: <UserIcon />, className: "hover-there" },
+    { icon: <FavoriteIcon />, className: "hover-there" },
+    { icon: <ShoppingIcon />, className: "hover-there" },
+    { icon: <CloudServiceIcon /> },
+  ];
+
   return (
     <div className="mt-[12px]">
       <div className="custom-container flex items-center justify-between">
-        <div>
-          <Link to="/">
-            <img src={Logo} alt="" />
-          </Link>
-        </div>
-        <div className="flex items-center w-full max-w-[704px]  justify-between bg-customGray rounded-lg" >
+        <Link to="/">
+          <img src={Logo} alt="" />
+        </Link>
+        <div className="flex items-center w-full max-w-[704px] justify-between bg-customGray rounded-lg">
           <input
             type="text"
-            className="text-[14px] p-[12px] w-full   bg-customGray"
+            className="text-[14px] p-[12px] w-full bg-customGray rounded-lg"
             placeholder="Search Product"
-            style={{borderRadius:"10px"}}
-           
           />
           <span>
             <SearchIcon />
@@ -31,25 +34,16 @@ const BottomNav = () => {
         </div>
         <div>
           <ul className="flex items-center gap-3">
-            <li className="hover-there">
-              <UserIcon />
-            </li>
-            <li className="hover-there">
-              <FavoriteIcon />
-            </li>
-            <li className="hover-there">
-              <ShoppingIcon />
-            </li>
+            {navItems.map((item, index) => (
+              <li key={index} className={item.className}>
+                {item.icon}
+              </li>
+            ))}
           </ul>
-        </div>
-        <div>
-          <Link>
-            <CloudServiceIcon />
-          </Link>
         </div>
       </div>
     </div>
   );
 };
 
-export default BottomNav;
+export default Navbar;

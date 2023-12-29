@@ -1,12 +1,12 @@
-import TopNav from "../components/navbars/TopNavbar";
-import BottomNav from "../components/navbars/Navbar";
 import Hero from "../components/heroSection/Hero";
+import Navbar from "../components/navbars/Navbar";
+import TopNavbar from "../components/navbars/TopNavbar";
 
 const Layout = () => {
   return (
     <div>
-      <TopNav />
-      <BottomNav />
+      <TopNavbar />
+      <Navbar />
       <Hero />
     </div>
   );
