@@ -1,7 +1,7 @@
  export const images = [
-    "/src/assets/images/banner.png",
-    "/src/assets/images/banner.png",
-    "/src/assets/images/banner.png",
-    "/src/assets/images/banner.png",
-    "/src/assets/images/banner.png",
+    "https://i.postimg.cc/v8nyCQVX/banner.png",
+    "https://i.postimg.cc/v8nyCQVX/banner.png",
+    "https://i.postimg.cc/v8nyCQVX/banner.png",
+    "https://i.postimg.cc/v8nyCQVX/banner.png",
+    "https://i.postimg.cc/v8nyCQVX/banner.png",
   ];
