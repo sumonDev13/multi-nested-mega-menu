@@ -12,7 +12,6 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 // Css
 import "./Slider.css";
 const Slider = ({ images }) => {
-  console.log('hello');
   return (
     <>
       <Swiper

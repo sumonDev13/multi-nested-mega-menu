@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import BrandLogo from "../assets/images/brand-logo.png";
+import BrandLogo from "/src/assets/images/brand-logo.png";
 import {
   CloudServiceIcon,
   FavoriteIcon,
   SearchIcon,
   ShoppingIcon,
   UserIcon,
-} from "../assets/icons";
+} from "../../assets/icons";
 
 const BottomNav = () => {
   return (
@@ -23,7 +23,7 @@ const BottomNav = () => {
         <div className="flex items-center w-full max-w-[704px] rounded-[10px] justify-between bg-background">
           <input
             type="text"
-            className="text-[14px] p-[12px] w-full outline-none border-none bg-background"
+            className="text-[14px] p-[12px] w-full outline-none border-none bg-customGray"
             placeholder="Search Product"
           />
           <span>

@@ -7,12 +7,11 @@ export default {
   theme: {
     extend: {},
     colors: {
+      customGray:'#f0f1f1',
+      customOrange:'#F97316',
       primary: "#434343",
       secondary: "#2E2E2E",
-      special: "#F97316",
-    },
-    backgroundColor: {
-      background: "#f0f1f1",
+      white: "#F9F9F9",
     },
   },
   plugins: [],
