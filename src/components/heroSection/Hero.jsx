@@ -9,7 +9,7 @@ const images = [
   "https://i.ibb.co/Ydry5NB/slider-banner.png",
 ];
 
-const Header = () => {
+const Hero = () => {
   const [activeSubMenu, setActiveSubMenu] = useState(null);
   const [subSubMenu, setActiveSubSubMenu] = useState(null);
 
@@ -73,4 +73,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;

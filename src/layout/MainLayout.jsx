@@ -1,17 +1,13 @@
-import { Outlet } from "react-router-dom";
 import TopNav from "../components/navbars/TopNavbar";
 import BottomNav from "../components/navbars/Navbar";
+import Hero from "../components/heroSection/Hero";
 
 const MainLayout = () => {
   return (
     <div>
-      <div>
-        <TopNav />
-        <BottomNav />
-      </div>
-      <div>
-        <Outlet />
-      </div>
+      <TopNav />
+      <BottomNav />
+      <Hero />
     </div>
   );
 };
