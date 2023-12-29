@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Slider from "../../utils/Slider/Slider";
-import { menus } from "../../utils/menus";
+import { menus } from "../../utils/Categories";
 import { RightIcon } from "../../assets/icons";
 
 const images = [
@@ -47,7 +47,6 @@ const Header = () => {
                         {submenu.dropdown.length > 0 && <RightIcon />}
                       </p>
 
-                      {/* Every submenu have another nested submenu so basically, as same of main submenu. and this time also every submenu is a single object and object have dropdown and here i'm checking dropdown have any data or not. if have then it will show when you hover submenu parents */}
                       {subSubMenu === subIndex &&
                         submenu.dropdown.length > 0 && (
                           <ul className="w-full absolute top-0 bottom-0 sm:max-w-[230px] p-[6px] flex flex-col gap-y-3 duration-200  left-[95%] "  style={{backgroundColor:"white"}}>
