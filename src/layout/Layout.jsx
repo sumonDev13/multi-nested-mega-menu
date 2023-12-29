@@ -2,7 +2,7 @@ import TopNav from "../components/navbars/TopNavbar";
 import BottomNav from "../components/navbars/Navbar";
 import Hero from "../components/heroSection/Hero";
 
-const MainLayout = () => {
+const Layout = () => {
   return (
     <div>
       <TopNav />
@@ -12,4 +12,4 @@ const MainLayout = () => {
   );
 };
 
-export default MainLayout;
+export default Layout;
