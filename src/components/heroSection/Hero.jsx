@@ -4,12 +4,12 @@ import { menus } from "../../utils/Categories";
 import { RightIcon } from "../../assets/icons";
 
 const images = [
-  "https://i.ibb.co/Ydry5NB/slider-banner.png",
-  "https://i.ibb.co/Ydry5NB/slider-banner.png",
-  "https://i.ibb.co/Ydry5NB/slider-banner.png",
-  "https://i.ibb.co/Ydry5NB/slider-banner.png",
-  "https://i.ibb.co/Ydry5NB/slider-banner.png",
-];
+  "/src/assets/images/banner.png",
+  "/src/assets/images/banner.png",
+  "/src/assets/images/banner.png",
+  "/src/assets/images/banner.png",
+  "/src/assets/images/banner.png",
+]
 
 const Hero = () => {
   const [activeSubMenu, setActiveSubMenu] = useState(null);

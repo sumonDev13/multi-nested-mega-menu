@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import BrandLogo from "/src/assets/images/brand-logo.png";
+import Logo from "/src/assets/images/logo.png";
 import {
   CloudServiceIcon,
   FavoriteIcon,
@@ -14,7 +14,7 @@ const BottomNav = () => {
       <div className="custom-container flex items-center justify-between">
         <div>
           <Link to="/">
-            <img src={BrandLogo} alt="" />
+            <img src={Logo} alt="" />
           </Link>
         </div>
         <div className="flex items-center w-full max-w-[704px]  justify-between bg-customGray"  style={{borderRadius:"10px"}}>
