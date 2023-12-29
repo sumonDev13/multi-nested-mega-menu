@@ -9,9 +9,7 @@ export default {
     colors: {
       customGray:'#f0f1f1',
       customOrange:'#F97316',
-      primary: "#434343",
-      secondary: "#2E2E2E",
-      white: "#F9F9F9",
+      customBlack:'#2E2E2E'
     },
   },
   plugins: [],

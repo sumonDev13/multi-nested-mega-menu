@@ -1,9 +1,11 @@
 import { useState } from "react";
-import Slider from "../../utils/Slider/Slider";
+import Slider from "../swiper/Swiper";
 import { menus } from "../../utils/Categories";
 import { RightIcon } from "../../assets/icons";
 
 const images = [
+  "https://i.ibb.co/Ydry5NB/slider-banner.png",
+  "https://i.ibb.co/Ydry5NB/slider-banner.png",
   "https://i.ibb.co/Ydry5NB/slider-banner.png",
   "https://i.ibb.co/Ydry5NB/slider-banner.png",
   "https://i.ibb.co/Ydry5NB/slider-banner.png",
@@ -21,7 +23,7 @@ const Hero = () => {
           {menus.map((menu, index) => (
             <li
               key={index}
-              className="hover:text-special flex items-center gap-2 text-secondary cursor-pointer"
+              className=" hover:text-customOrange flex items-center gap-2 text-customBlack cursor-pointer"
               onMouseEnter={() => setActiveSubMenu(index)}
               onMouseLeave={() => setActiveSubMenu(null)}
             >
@@ -37,12 +39,12 @@ const Hero = () => {
                   {menu.dropdown.map((submenu, subIndex) => (
                     <li
                       key={subIndex}
-                      className="hover:text-special flex items-center gap-2 text-secondary cursor-pointer"
+                      className=" hover:text-customOrange flex items-center gap-2 text-customBlack cursor-pointer"
                       onMouseEnter={() => setActiveSubSubMenu(subIndex)}
                       onMouseLeave={() => setActiveSubSubMenu(null)}
                     >
                       <span>{submenu.icon}</span>
-                      <p className="flex items-center justify-between pr-5 w-full capitalize">
+                      <p className="flex items-center justify-between pr-5 w-full capitalize ">
                         {submenu.name}
                         {submenu.dropdown.length > 0 && <RightIcon />}
                       </p>
@@ -53,7 +55,7 @@ const Hero = () => {
                             {submenu.dropdown.map((subsubmenu, subsubIndex) => (
                               <li
                                 key={subsubIndex}
-                                className="hover:text-special flex items-center gap-2 text-secondary cursor-pointer"
+                                className=" hover:text-customOrange flex items-center gap-2 text-customBlack cursor-pointer"
                               >
                                 <span>{subsubmenu.icon}</span>
                                 <p className="capitalize">{subsubmenu.name}</p>
