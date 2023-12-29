@@ -17,11 +17,12 @@ const BottomNav = () => {
             <img src={Logo} alt="" />
           </Link>
         </div>
-        <div className="flex items-center w-full max-w-[704px]  justify-between bg-customGray"  style={{borderRadius:"10px"}}>
+        <div className="flex items-center w-full max-w-[704px]  justify-between bg-customGray rounded-lg" >
           <input
             type="text"
-            className="text-[14px] p-[12px] w-full outline-none border-none  bg-customGray"
+            className="text-[14px] p-[12px] w-full   bg-customGray"
             placeholder="Search Product"
+            style={{borderRadius:"10px"}}
            
           />
           <span>
