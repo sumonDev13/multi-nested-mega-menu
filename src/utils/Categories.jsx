@@ -1,6 +1,4 @@
 import {
-  AutomobileIcon,
-  ComputerLaptopIcon,
   ElectronicAccesoriesIcon,
   ElectronicsDeviceIcon,
   GroceriesIcon,
@@ -15,7 +13,7 @@ import {
   WomenGirlsFaIcon,
 } from "../assets/icons";
 
-export const menus = [
+export const categories = [
   {
     icon: <WomenGirlsFaIcon />,
     name: "Women's & Girl's Fashion",
@@ -117,12 +115,12 @@ export const menus = [
     dropdown: [],
   },
   {
-    icon: <AutomobileIcon />,
+    icon:  <ElectronicAccesoriesIcon />,
     name: "automobile",
     dropdown: [],
   },
   {
-    icon: <ComputerLaptopIcon />,
+    icon: <TvHomeIcon />,
     name: "computer and laptop",
     dropdown: [],
   },
