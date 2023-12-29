@@ -26,7 +26,7 @@ const TopNavbar = () => {
         {items.map((item, index) => (
           <li
             key={index}
-            className={`flex text-${item.color || "primary"} duration-100 hover:text-${item.color || "customOrange"} items-center gap-[4.17px]`}
+            className={`flex text-${item.color || (alignRight ? "customBlack" : "customBlack")} duration-100 hover:text-${item.color || "customOrange"} items-center gap-[4.17px]`}
           >
             <Link>{item.text}</Link>
             {item.icon && item.icon}
